@@ -128,3 +128,67 @@ header {
   position: relative;
   top: 3px;
 }
+
+/*SECTION 2*/
+
+.second__section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second__section__list__container ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 54px;
+  list-style: none;
+}
+
+.second__section__list__container li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 46px;
+}
+
+.second__section__list__container img {
+  max-width: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.second__section__title {
+  max-width: 550px;
+  width: 100%;
+}
+
+.section__titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #2f281e;
+}
+
+.second__section__list__container a {
+  margin-bottom: 13px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #2f281e;
+}
+
+.second__section__list__container p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.second__section__btn {
+  margin-top: 49px;
+}
+.second__section__btn a {
+  position: relative;
+  bottom: 12px;
+}
