@@ -74,6 +74,8 @@ header {
   line-height: 24px;
 }
 
+/*FIRST SECTION*/
+
 .first__section__landing {
   margin: 128px 0px 110px;
   display: flex;
@@ -111,7 +113,7 @@ header {
   line-height: 24px;
   color: #ffffff;
 }
-/*-----------------------------------------------------*/
+
 .watch__btn {
   width: 161px;
   background-color: #fff;
@@ -194,7 +196,7 @@ header {
   bottom: 12px;
 }
 
-/*------------------------------------------------*/
+/*This styling is used for the sections from 3 to 5*/
 .sections__container {
   display: flex;
   justify-content: space-between;
@@ -234,7 +236,7 @@ header {
   max-width: 520px;
   width: 100%;
 }
-/* -------- I don't know why it apply the style to the first element on the list
+/*  I don't know why it apply the style to the first element on the list
 but not to the rest of the elements*/
 
 .fourth__section__list li {
@@ -248,3 +250,49 @@ but not to the rest of the elements*/
   width: 100%;
 }
 /*---------------------------------------------*/
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 308px;
+  margin: 146px 0px 83px 0px;
+  border-top: 1px solid #979797;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #544837;
+}
+.footer__container ul {
+  list-style: none;
+}
+
+.footer__logo__container img {
+  position: relative;
+  bottom: 150px;
+  max-width: 185px;
+  width: 100%;
+}
+
+.signUp__container input {
+  border: 1px solid #bcd0e5;
+  max-width: 325px;
+  width: 100%;
+  height: 48px;
+  position: relative;
+  bottom: 21px;
+  border-radius: 5px;
+}
+
+.signUp__container button {
+  max-width: 131px;
+  width: 100%;
+  height: 39px;
+  background-color: #ff9900;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
