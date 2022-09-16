@@ -195,13 +195,13 @@ header {
 }
 
 /*------------------------------------------------*/
-.thrid__section__container {
+.sections__container {
   display: flex;
   justify-content: space-between;
   margin-top: 120px;
 }
 
-.thrid__section__left {
+.sections__content__container {
   max-width: 486px;
   width: 100%;
 }
@@ -213,16 +213,16 @@ header {
   color: #544837;
 }
 
-.thrid__section__second__paragraph {
+.sections__second__paragraph {
   line-height: 26px;
   margin: 22px 0px 30px 0px;
 }
 
-.thrid__section__list ul {
+.sections__list ul {
   list-style: none;
 }
 
-.thrid__section__list h5 {
+.sections__list h5 {
   margin: 12px 12px 12px 0px;
   font-weight: 700;
   font-size: 16px;
@@ -230,7 +230,21 @@ header {
   color: #2f281e;
 }
 
-.thrid__section__right {
+.sections__images-container {
   max-width: 520px;
   width: 100%;
 }
+/* -------- I don't know why it apply the style to the first element on the list
+but not to the rest of the elements*/
+
+.fourth__section__list li {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth__section__list img {
+  max-width: 35px;
+  width: 100%;
+}
+/*---------------------------------------------*/
