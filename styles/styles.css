@@ -201,9 +201,36 @@ header {
   margin-top: 120px;
 }
 
+.thrid__section__left {
+  max-width: 486px;
+  width: 100%;
+}
+
 .thrid__section__left p {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: #544837;
+}
+
+.thrid__section__second__paragraph {
+  line-height: 26px;
+  margin: 22px 0px 30px 0px;
+}
+
+.thrid__section__list ul {
+  list-style: none;
+}
+
+.thrid__section__list h5 {
+  margin: 12px 12px 12px 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2f281e;
+}
+
+.thrid__section__right {
+  max-width: 520px;
+  width: 100%;
 }
