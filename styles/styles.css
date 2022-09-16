@@ -111,7 +111,7 @@ header {
   line-height: 24px;
   color: #ffffff;
 }
-
+/*-----------------------------------------------------*/
 .watch__btn {
   width: 161px;
   background-color: #fff;
@@ -160,13 +160,14 @@ header {
 .second__section__title {
   max-width: 550px;
   width: 100%;
+  text-align: center;
 }
-
+/*Styling for all the titles of the sections except the first section*/
 .section__titles {
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
-  text-align: center;
+
   color: #2f281e;
 }
 
@@ -191,4 +192,18 @@ header {
 .second__section__btn a {
   position: relative;
   bottom: 12px;
+}
+
+/*------------------------------------------------*/
+.thrid__section__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.thrid__section__left p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
 }
